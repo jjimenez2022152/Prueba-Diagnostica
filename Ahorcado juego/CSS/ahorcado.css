@@ -1,0 +1,14 @@
+div{
+    text-align: center;
+}
+
+.contenedor{
+    background-image: url(../img/ahorcadoFO.jpg);
+    background-size: cover; 
+    background-position: center; 
+    height: 150vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(15, 184, 57); 
+}
