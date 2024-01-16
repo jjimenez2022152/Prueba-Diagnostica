@@ -27,9 +27,11 @@ p{
 button{
     padding: 10px 20px;
     font-size: 20px;
+    background-color: rgb(243, 115, 141);
 }
 
 input{
     padding: 10px 20px;
     font-size: 20px;
+    background-color: indianred;
 }

@@ -14,7 +14,7 @@ function adivinarLetra() {
     const letraInput = document.getElementById("letraInput").value.toLowerCase();
 
     if (letrasAdivinadas.includes(letraInput)) {
-        alert("Ya usaste esa letra, prueba con otra!");
+        alert("Ya usaste esa letra, prueba con otra");
         return;
     }
     if (palabraSecreta.includes(letraInput)) {
@@ -29,13 +29,13 @@ function adivinarLetra() {
         document.getElementById("contadorIntentos").innerText = intentosRestantes;
 
         if (intentosRestantes === 0) {
-            alert("¡Has perdido! La palabra secreta era: " + palabraSecreta);
+            alert("Perdiste manin: " + palabraSecreta);
             reiniciarJuego();
         }
     }
 
     if (letrasAdivinadas.join("") === palabraSecreta) {
-        alert("¡Felicidades! ¡Has adivinado la palabra!");
+        alert("GANASTEEEEEEEEEEEEEEEEEEEEEEEEEEE SIUUUU");
         reiniciarJuego();
     }
 
